@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: datetime3
+Version: 3.8.0
+Summary: Latest Python 3.x datetime module packaged for use on older Python
+Home-page: https://github.com/orent/datetime3
+Author: packaged by Oren Tirosh
+Author-email: orent@hishome.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+
+This package contains the datetime module from Python version 3.8, packaged
+for use on older Python 3.x versions, to ensure you have the latest bugfixes
+and features (e.g. timezone fold support).
+
+Identical to original version with the following modifications:
+
+1. Pure Python implementation, no C extension module.
+2. Any use of f'' format strings has been removed.
+
+
